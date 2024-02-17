@@ -1,0 +1,27 @@
+--1-- CombatText - 
+desc: mostra HP dos zumbis proximos
+dep : nenhuma
+link: https://steamcommunity.com/sharedfiles/filedetails/?id=2286124931
+Workshop ID: 2286124931
+Mod ID: CombatText
+
+--2-- Item Condition Indicator
+desc: mostra indicador de duracao para itens equipados
+dep : 3,4
+link: https://steamcommunity.com/sharedfiles/filedetails/?id=3020524923
+Workshop ID: 3020524923
+Mod ID: ItemConditionIndicator
+
+--3-- Weapon Condition Indicator [41.60+]
+desc: mostra indicador de duracao para armas equipados
+dep : 4
+link: https://steamcommunity.com/sharedfiles/filedetails/?id=2619072426
+Workshop ID: 2619072426
+Mod ID: TheStar
+
+--4-- Mod Options (Build 41)
+desc: dependencia para weapon condition
+dep : nenhuma
+link: https://steamcommunity.com/sharedfiles/filedetails/?id=2169435993
+Workshop ID: 2169435993
+Mod ID: modoptions

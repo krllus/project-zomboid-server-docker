@@ -12,8 +12,15 @@ services:
       - "16261:16261/udp"
       - "16262:16262/udp"
       - "27015:27015/tcp"
+    extra_hosts:
+      - "lazycat:192.168.1.99"
+    network_mode: "bridge"
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Sao_Paulo
     volumes:
       # Server data
-      - ./data:/home/steam/Zomboid
+      - "/run/media/joao/MegaDrive/Games/ProjectZomboidServer/data:/home/steam/Zomboid"
       # Workshop mods folder
-      - ./workshop-mods:/home/steam/pz-dedicated/steamapps/workshop
+      - "/run/media/joao/MegaDrive/Games/ProjectZomboidServer/workshop-mods:/home/steam/pz-dedicated/steamapps/workshop"      
