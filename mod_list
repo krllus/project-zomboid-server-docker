@@ -25,3 +25,17 @@ dep : nenhuma
 link: https://steamcommunity.com/sharedfiles/filedetails/?id=2169435993
 Workshop ID: 2169435993
 Mod ID: modoptions
+
+-- 5 -- Cat's Faster Reading Mod
+desc: modifica tempo de leitura e permite ler enquanto anda/corre;
+dep : nenhuma
+link: https://steamcommunity.com/sharedfiles/filedetails/?id=2690908199
+Workshop ID: 2690908199
+Mod ID: CatsReadMod
+
+-- 6 -- Has Been Read
+desc: indicador de lido/nao lido para livros/revistas;
+dep : nenhuma
+link: https://steamcommunity.com/sharedfiles/filedetails/?id=2544353492
+Workshop ID: 2544353492
+Mod ID: P4HasBeenRead
